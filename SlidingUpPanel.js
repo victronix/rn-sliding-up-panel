@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import clamp from 'clamp'
 
 import {
-  ViewPropTypes,
   UIManager,
   TextInput,
   Keyboard,
@@ -13,6 +12,8 @@ import {
   Platform,
   findNodeHandle
 } from 'react-native'
+
+import {ViewPropTypes} from "deprecated-react-native-prop-types"
 
 import closest from './libs/closest'
 import measureElement from './libs/measureElement'
